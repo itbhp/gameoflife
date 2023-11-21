@@ -63,7 +63,7 @@ class GameOfLifeTest {
         }
 
         @Test
-        void two_dimensional_should_work() {
+        void resurrection_should_work() {
             var gameOfLife = GameOfLife.from(
                     "..**..\n" +
                             "..*..."
